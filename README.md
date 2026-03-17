@@ -1,6 +1,6 @@
 # bitcoin-sovereignty
 ## A framework for long-term Bitcoin ownership through custody architecture, governance discipline, operational risk, and sovereign asset protection.
-### Operational Architecture for Secure Bitcoin OwnershipPublished by
+### Operational Architecture for Secure Bitcoin Ownership Published by
 Author: Anthony Lee  
 Published by: Sovereign Systems Research  
 Year: 2026  
@@ -990,6 +990,13 @@ Bitcoin systems increasingly rely on independent verification mechanisms to conf
 Reliable Bitcoin systems benefit from independent transaction verification and reproducible audit frameworks. Infrastructure tools such as Gravity demonstrate how Bitcoin transactions can be programmatically verified and archived for long-term accountability.
 
 One example of such infrastructure is Gravity, a verification framework that produces reproducible proof bundles from Bitcoin transaction identifiers (TXIDs). By allowing transactions to be independently verified and archived, systems like Gravity illustrate how Bitcoin’s transparent ledger can be integrated into operational auditing processes.
+
+### Quick Verification Test
+
+Developers can test the Gravity verifier directly from the command line:
+
+curl "https://gravitybtc.space/report?txid=
+<bitcoin_txid>"
 
 Further information:
 gravitybtc.space
